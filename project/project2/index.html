@@ -60,7 +60,7 @@
  
 <div class="blog-title">
           <h4>
-         January 1, 0001 
+         August 5, 2021 
             &nbsp;&nbsp;
             
           </h4>
@@ -164,19 +164,19 @@ head(citizenry_checks)</code></pre>
 ##          &lt;dbl&gt;
 ## 1        0.148</code></pre>
 <pre class="r"><code>head(perm1&lt;-data.frame(checks=citizenry_checks$checks,citizen=sample(citizenry_checks$citizen)))</code></pre>
-<pre><code>##   checks  citizen
-## 1      3 citizens
-## 2      3 citizens
-## 3      3 citizens
-## 4      1 citizens
-## 5      1 citizens
-## 6      0 citizens</code></pre>
+<pre><code>##   checks     citizen
+## 1      3    citizens
+## 2      3    citizens
+## 3      3 noncitizens
+## 4      1    citizens
+## 5      1    citizens
+## 6      0    citizens</code></pre>
 <pre class="r"><code>perm1%&gt;%group_by(citizen)%&gt;%
   summarize(means=mean(checks))%&gt;%summarize(`mean_diff:`=diff(means))</code></pre>
 <pre><code>## # A tibble: 1 x 1
 ##   `mean_diff:`
 ##          &lt;dbl&gt;
-## 1      -0.0756</code></pre>
+## 1       0.0248</code></pre>
 <pre class="r"><code>Arrests %&gt;% group_by(citizen)%&gt;%
   summarize(means=mean(checks))%&gt;%summarize(`mean_diff:`=diff(means))</code></pre>
 <pre><code>## # A tibble: 1 x 1
@@ -191,7 +191,7 @@ mean(new[new$citizen==&quot;noncitizens&quot;,]$checks)}
 {hist(random_dist,main=&quot;&quot;,ylab=&quot;&quot;); abline(v = -0.0480556,col=&quot;red&quot;)}</code></pre>
 <p><img src="../../project/project2_files/figure-html/unnamed-chunk-2-2.png" width="768" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>mean(random_dist&gt;.0480556 | random_dist &lt; -.0480556)</code></pre>
-<pre><code>## [1] 0.4246</code></pre>
+<pre><code>## [1] 0.4064</code></pre>
 <p><em>I first had to turn my two categories of citizenship into vectors using the values from the check numerical category. I then performed a randomization test between the citizenry groups, which I categorized into citizens and noncitizens, and checks (which ranged from 0 to 6). The null hypothesis is: mean state birth rate is the same for younger and older teens and the alternative hypothesis states that the checks are different for citizens and noncitizens. The mean difference was found to be -.1480556. I then randomized the data and created a histogram showing the results with a red line to be at the mean difference point. The red line appears on the graph because there are mean differences which are as extreme as the computed mean difference value. A t-test was run and confirmed this by showing p-value of 0.456, meaning we cannot reject the null hypothesis to say that there is a difference in checks between the two type of citizenship.</em></p>
 <ul>
 <li><strong>3. (40 pts)</strong> Build a linear regression model predicting one of your response variables from at least 2 other variables, including their interaction. Mean-center any numeric variables involved in the interaction.</li>

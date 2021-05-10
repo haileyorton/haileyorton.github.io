@@ -1,7 +1,7 @@
 ---
 title: 'Project 2: Modeling, Testing, and Predicting'
 author: "Hailey Orton ho2868"
-date: ''
+date: '2021-08-05'
 output:
   html_document:
     toc: yes
