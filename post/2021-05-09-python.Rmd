@@ -6,9 +6,9 @@ slug: python
 categories: []
 tags: []
 description: ''
-
-
 ---
+![](/post/2021-05-09-python_files/img3-1.jpg)
+
 ```{python}
 hailey_dict = {'firstName': 'Hailey', 'lastName': 'Orton', 'hobbies': ['F45','long walks','cooking'], 'occupation': ['student', 'vision therapist'], 'age': 22}
 ```
