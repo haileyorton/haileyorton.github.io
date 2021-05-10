@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>my site</title>
+    <link>/</link>
+    <description>Recent content on my site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>/post/2021/05/09/python/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/05/09/python/</guid>
+      <description> hailey_dict = {&amp;#39;firstName&amp;#39;: &amp;#39;Hailey&amp;#39;, &amp;#39;lastName&amp;#39;: &amp;#39;Orton&amp;#39;, &amp;#39;hobbies&amp;#39;: [&amp;#39;F45&amp;#39;,&amp;#39;long walks&amp;#39;,&amp;#39;cooking&amp;#39;], &amp;#39;occupation&amp;#39;: [&amp;#39;student&amp;#39;, &amp;#39;vision therapist&amp;#39;], &amp;#39;age&amp;#39;: 22} print(hailey_dict) ## {&amp;#39;firstName&amp;#39;: &amp;#39;Hailey&amp;#39;, &amp;#39;lastName&amp;#39;: &amp;#39;Orton&amp;#39;, &amp;#39;hobbies&amp;#39;: [&amp;#39;F45&amp;#39;, &amp;#39;long walks&amp;#39;, &amp;#39;cooking&amp;#39;], &amp;#39;occupation&amp;#39;: [&amp;#39;student&amp;#39;, &amp;#39;vision therapist&amp;#39;], &amp;#39;age&amp;#39;: 22} print(hailey_dict.keys()) ## dict_keys([&amp;#39;firstName&amp;#39;, &amp;#39;lastName&amp;#39;, &amp;#39;hobbies&amp;#39;, &amp;#39;occupation&amp;#39;, &amp;#39;age&amp;#39;]) library(reticulate) py$hailey_dict[&amp;#39;hobbies&amp;#39;] ## $hobbies ## [1] &amp;quot;F45&amp;quot; &amp;quot;long walks&amp;quot; &amp;quot;cooking&amp;quot; py$hailey_dict[&amp;#39;lastName&amp;#39;] ## $lastName ## [1] &amp;quot;Orton&amp;quot; </description>
+    </item>
+    
+    <item>
+      <title>Project 1</title>
+      <link>/project/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project1/</guid>
+      <description>R Markdown #For this project I decided to look at all 50 states and their cancer rates, as well as their levels of uninsurance. I chose this type of data because I’m in a sociology class about cancer this semester, and I find that a lack of healthcare coverage is a huge barrier to recieving proper care. I wanted to see if there was any correlation in cancer occurence and insurance coverage following the implementation of the ACA.</description>
+    </item>
+    
+    <item>
+      <title>Project 2: Modeling, Testing, and Predicting</title>
+      <link>/project/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project2/</guid>
+      <description>Guidelines and Rubric  0. (5 pts) Introduce your dataset and each of your variables (or just your main variables if you have lots) in a paragraph. What are they measuring? How many observations?  My dataset is exploring arrests regarding marijuana possession. The dataset explores race, employment, sex, citizenship, age, previous arrests, whether they were released, and the year of the arrest. The dataset may be at least somewhat out of date, as it lists race as “colour.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description> Check out some of my coding projects below:
+ Wrangling &amp;amp; Exploratory Data Analysis
+ Modeling, Inference, Prediction
+  -- </description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>    </description>
+    </item>
+    
+  </channel>
+</rss>

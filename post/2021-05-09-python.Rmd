@@ -1,0 +1,31 @@
+---
+title: Python
+author: 'Hailey Orton'
+date: '2021-05-09'
+slug: python
+categories: []
+tags: []
+description: ''
+
+
+---
+```{python}
+hailey_dict = {'firstName': 'Hailey', 'lastName': 'Orton', 'hobbies': ['F45','long walks','cooking'], 'occupation': ['student', 'vision therapist'], 'age': 22}
+```
+
+```{python}
+print(hailey_dict)
+```
+
+```{python}
+print(hailey_dict.keys())
+```
+
+```{R}
+library(reticulate)
+py$hailey_dict['hobbies']
+```
+
+```{R}
+py$hailey_dict['lastName']
+```
